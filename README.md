@@ -22,10 +22,13 @@ CNN  (Konvolüsyonel Sinir Ağları)
 •	Nesne tespitleri, yüzleri tanıma vb. CNN ‘lerin yaygın olarak kullanıldığı alanlardan bazılarıdır.
 CNN görüntüyü çeşitli katmanlarda işler 5 katmandan olusur. 
 1.	Konvolüsyonel Katman: Resmin özellikleri saptamak için kullanılır. Resme bazı  filtreler uygulanır kenar belirleme , görüntü yumuşatma,görüntü  keskinleştirme filtreleri vb 
+
 2.Düzleştirilmiş Doğrusal Birim Katmanı(Rectified Linear UnitsLayer(ReLu)) :
 Bu katman konvolüsyon katmanlarından sonra gelir ve CNN nöronlarının çıktıları için en yaygın şekilde devreye sokulan doğrultucu birim olarak bilinir
+
 2.Düzleştirilmiş Doğrusal Birim Katmanı(Rectified Linear UnitsLayer(ReLu))
 Bu katman konvolüsyon katmanlarından sonra gelir ve CNN nöronlarının çıktıları için en yaygın şekilde devreye sokulan doğrultucu birim olarak bilinir
+
 3.Havuzlama Katmanı (Pooling Layer) :
 Havuzlama genellikle ReLu katmanından sonra yerleştirilir. Temel amacı, sonraki konvolüsyon katmanı için giriş boyutunu (Genişlik x Yükseklik) azaltmaktır. 
 
